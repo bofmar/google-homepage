@@ -10,6 +10,49 @@ body{
     font-size: 13px;
 }
 
+#apps{
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    display: inline-block;
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #222;
+    position: relative;
+    bottom: 5px;
+}
+
+#tooltip{
+    visibility: hidden;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+}
+
+#apps:hover #tooltip{
+    visibility: visible;
+}
+
+#sign-in{
+    width:77px;
+    height: 30px;
+    background-color:#4285f4;
+    border: none;
+}
+
+#sign-text{
+    color:white;
+    font-weight: bold;
+}
+
 li{
     margin-right: 1em;
 }
@@ -43,6 +86,7 @@ a:hover{
     border-radius: 20px;
     border-color: rgba(0,0,0,.14);
     text-indent: 5vw;
+    background-color: white;
 }
 
 #searchbar:hover{
@@ -55,7 +99,7 @@ a:hover{
     position: absolute;
     height: 20px;
     width: 20px;
-    top: 34.5vh;
+    top: 35.3vh;
     left: 38vw;
     opacity: 0.3;
     background-position: -250px -36px;
