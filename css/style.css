@@ -12,3 +12,25 @@
     flex-direction: column;
     margin-top: 19vh;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top:50vh;
+}
+
+#footer-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer-bar-left{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-bar-right{
+    display: flex;
+    flex-direction: row;
+}
