@@ -19,6 +19,11 @@ a{
     color: initial;
 }
 
+.a-untouched{
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
 a:hover{
     text-decoration: underline;
 }
@@ -31,10 +36,69 @@ a:hover{
     margin-top: 19vh;
 }
 
+#searchbar{
+    width: 25vw;
+    height: 3em;
+    margin-top: 1em;
+    border-radius: 20px;
+    border-color: rgba(0,0,0,.14);
+    text-indent: 5vw;
+}
+
+#searchbar:hover{
+    border-color: rgba(0,0,0,.54);
+}
+
+#mag-glass{
+    background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 34.5vh;
+    left: 38vw;
+    opacity: 0.3;
+    background-position: -250px -36px;
+}
+
+#button-holder{
+    margin-top: 1em;
+}
+
+#search, #lucky{
+    width:150px;
+    height: 37px;
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,.54);
+    border: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 0.5em;
+}
+
+#search:hover{
+    color: rgba(0,0,0,1);
+    border-style: solid;
+    border-width: 0.01px;
+    border-color: rgba(0,0,0,.14);
+}
+
+#lucky:hover{
+    color: rgba(0,0,0,1);
+    border-style: solid;
+    border-width: 0.01px;
+    border-color: rgba(0,0,0,.14);
+}
+
+#g-text{
+    font-size: 13px;
+    padding-top: 1em;
+}
+
 footer{
     display: flex;
     flex-direction: column;
-    margin-top:52vh;
+    margin-top:46vh;
 }
 
 #country{
@@ -42,11 +106,11 @@ footer{
     color: rgba(0,0,0,.54);
     border-style: solid;
     border-width: 1px;
-    border-color: #222222;
+    border-color: #f0f0f0;
     background-color: #e4e4e4;
-    height: 1.5em;
-    padding-top: 0.5em;
-    padding-left: 1em;
+    height: 3vh;
+    padding-top: 1vh;
+    padding-left: 2vw;
 }
 
 #footer-bar{
@@ -56,11 +120,11 @@ footer{
     font-size: 14px;
     border-style: solid;
     border-width: 1px;
-    border-color: #222222;
+    border-color: #f0f0f0;
     background-color: #e4e4e4;
-    height: 3em;
-    padding-top: 1em;
-    padding-left: 1em;
+    height: 3vh;
+    padding-top: 1vh;
+    padding-left: 2vw;
 }
 
 #footer-bar-left{
